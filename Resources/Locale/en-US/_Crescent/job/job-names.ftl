@@ -123,11 +123,11 @@ job-name-gliess-dockmaster = Gliessian Dockmaster
 # conscript-ncwl - for PLANETFALL
 # someones been here before... i am only retracing steps...
 
-job-name-planetfall-team2-leader = SHI Commander
-job-name-planetfall-team2-subleader = SHI Squad Leader
-job-name-planetfall-team2-member = SHI Infantry
+job-name-planetfall-team1-leader = SHI Commander
+job-name-planetfall-team1-subleader = SHI Squad Leader
+job-name-planetfall-team1-member = SHI Infantry
 
-# conscript-dsm - for PLANETFALL 
+# conscript-dsm - for PLANETFALL
 # someones been here before... i am only retracing steps...
 
 job-name-planetfall-team2-leader = PTA Commander
