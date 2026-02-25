@@ -362,6 +362,22 @@
   - type: ShipVoucher
     ship: Lodka
 
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherVasinya
+  name: NCWL 'Vasinya' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with a communard corvette-class combat pattern. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 42500
+  - type: ShipVoucher
+    ship: Vasinya
 
 #T0 END
 
