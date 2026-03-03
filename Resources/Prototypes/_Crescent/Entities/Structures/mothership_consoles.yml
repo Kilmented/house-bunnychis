@@ -13,6 +13,7 @@
     - Gargut
     - Hind
     - Vasinya
+    - Psoglav
 
 - type: entity
   id: NCWLLightCarrierComputer
@@ -292,3 +293,12 @@
   - type: ShipyardListing
     shuttles:
     - Caravan
+
+- type: entity
+  id: PsoglavMothershipComputer
+  parent: BaseMothershipComputer
+  name: psoglav internal shipyard
+  components:
+  - type: ShipyardListing
+    shuttles:
+    - Cog
