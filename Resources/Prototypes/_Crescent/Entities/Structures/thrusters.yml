@@ -22,6 +22,8 @@
           - !type:PlaySoundBehavior
             sound:
               collection: MetalBreak
+         - !type:ChangeConstructionNodeBehavior
+            node: machineFrame
     - type: Sprite
       sprite: _Crescent/Structures/thrustersyn.rsi
       layers:
@@ -58,6 +60,8 @@
           - !type:PlaySoundBehavior
             sound:
               collection: MetalBreak
+          - !type:ChangeConstructionNodeBehavior
+            node: machineFrame
     - type: Sprite
       sprite: _Crescent/Structures/thrustersyn.rsi
       layers:
@@ -97,6 +101,8 @@
           - !type:PlaySoundBehavior
             sound:
               collection: MetalBreak
+          - !type:ChangeConstructionNodeBehavior
+            node: machineFrame
     - type: Machine
       board: CMMFighterCircuitBoard
 
@@ -122,6 +128,8 @@
           - !type:PlaySoundBehavior
             sound:
               collection: MetalBreak
+          - !type:ChangeConstructionNodeBehavior
+            node: machineFrame
     - type: Sprite
       sprite: _Crescent/Structures/thrusterempire.rsi
       layers:
@@ -163,6 +171,8 @@
           - !type:PlaySoundBehavior
             sound:
               collection: MetalBreak
+          - !type:ChangeConstructionNodeBehavior
+            node: machineFrame
     - type: Machine
       board: SHIFighterCircuitBoard
 
@@ -188,6 +198,8 @@
           - !type:PlaySoundBehavior
             sound:
               collection: MetalBreak
+          - !type:ChangeConstructionNodeBehavior
+            node: machineFrame
     - type: Sprite
       sprite: _Crescent/Structures/thrusterncwl.rsi
       layers:
@@ -227,6 +239,8 @@
           - !type:PlaySoundBehavior
             sound:
               collection: MetalBreak
+          - !type:ChangeConstructionNodeBehavior
+            node: machineFrame
     - type: Machine
       board: SRMFighterCircuitBoard
 
@@ -252,6 +266,8 @@
           - !type:PlaySoundBehavior
             sound:
               collection: MetalBreak
+          - !type:ChangeConstructionNodeBehavior
+            node: machineFrame
     - type: Sprite
       sprite: _Crescent/Structures/thrustersyn.rsi
       layers:
@@ -291,6 +307,8 @@
           - !type:PlaySoundBehavior
             sound:
               collection: MetalBreak
+          - !type:ChangeConstructionNodeBehavior
+            node: machineFrame
     - type: Sprite
       sprite: _Crescent/Structures/thrusterncwl.rsi
       layers:
@@ -330,6 +348,8 @@
           - !type:PlaySoundBehavior
             sound:
               collection: MetalBreak
+          - !type:ChangeConstructionNodeBehavior
+            node: machineFrame
     - type: Machine
       board: CMMWarshipCircuitBoard
 
@@ -355,6 +375,8 @@
           - !type:PlaySoundBehavior
             sound:
               collection: MetalBreak
+          - !type:ChangeConstructionNodeBehavior
+            node: machineFrame
     - type: Machine
       board: SHIWarshipCircuitBoard
 
@@ -380,6 +402,8 @@
           - !type:PlaySoundBehavior
             sound:
               collection: MetalBreak
+          - !type:ChangeConstructionNodeBehavior
+            node: machineFrame
     - type: Sprite
       sprite: _Crescent/Structures/thrusterempire.rsi
       layers:
@@ -419,5 +443,7 @@
           - !type:PlaySoundBehavior
             sound:
               collection: MetalBreak
+          - !type:ChangeConstructionNodeBehavior
+            node: machineFrame
     - type: Machine
       board: SRMWarshipCircuitBoard
