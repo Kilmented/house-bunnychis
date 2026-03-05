@@ -29,6 +29,8 @@
   - type: ShipyardListing
     shuttles:
     - ValorDrone
+    - Khan
+    - Perigale
 
 - type: entity
   id: JackalMothershipComputer
