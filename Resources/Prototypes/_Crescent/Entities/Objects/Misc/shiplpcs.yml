@@ -99,8 +99,8 @@
 
 - type: entity
   parent: BaseItem
-  id: ShipVoucherVoruna
-  name: DSM 'Voruna' pattern LPC fabprint disk
+  id: ShipVoucherKhan
+  name: DSM 'Khan' pattern LPC fabprint disk
   description: An LPC fabprint disk loaded with an Imperial Voruna-class subshuttle. Has to be redeemed at a shipyard console.
   components:
   - type: Item
@@ -112,10 +112,10 @@
   - type: StaticPrice
     price: 2500
   - type: ShipVoucher
-    ship: Voruna
+    ship: Khan
   - type: ReverseEngineering # Sector Crescent
     recipes:
-      - VorunaLPC
+      - KhanLPC
 
 - type: entity
   parent: BaseItem
@@ -136,6 +136,23 @@
   - type: ReverseEngineering # Sector Crescent
     recipes:
       - PerigaleLPC
+
+  - type: entity
+  parent: BaseItem
+  id: ShipVoucherRaider
+  name: DSM 'Raider' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with an Imperial Raider-class cloaked troop transport. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 2500
+  - type: ShipVoucher
+    ship: Raider
 
 - type: entity
   parent: BaseItem
