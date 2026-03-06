@@ -137,7 +137,7 @@
     recipes:
       - PerigaleLPC
 
-  - type: entity
+- type: entity
   parent: BaseItem
   id: ShipVoucherRaider
   name: DSM 'Raider' pattern LPC fabprint disk
