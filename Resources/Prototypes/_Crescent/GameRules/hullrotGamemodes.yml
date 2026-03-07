@@ -650,9 +650,6 @@
         IFFFaction: TFSC
 
 
-        type: gamePreset
-
-        
 - type: gamePreset
   id: PlanetfallMode
   name: Planetfall SHI VS PTA HYPERWAR
