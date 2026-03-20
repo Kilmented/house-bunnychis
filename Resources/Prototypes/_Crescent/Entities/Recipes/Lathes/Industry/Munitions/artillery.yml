@@ -60,7 +60,7 @@
     LargeGaugeCasing: 15
     OrdnanceCompound: 60
     Steel: 40
-    AlloyBallistics: 30
+    BallisticSteel: 30
 
 #300mm
 - type: latheRecipe

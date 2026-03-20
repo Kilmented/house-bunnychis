@@ -7,7 +7,7 @@
     Carbon: 20
 
 - type: latheRecipe
-  id: AlloyBallistics
+  id: BallisticSteel
   result: BallisticSteel1
   completetime: 2
   materials:
@@ -16,7 +16,7 @@
     Carbon: 20
 
 - type: latheRecipe
-  id: AlloyStructural
+  id: StructuralComposite
   result: StructuralComposite1
   completetime: 4
   materials:
@@ -25,7 +25,7 @@
     Tungsten: 50
 
 - type: latheRecipe
-  id: AlloyOrdnance
+  id: HeavyOrdnanceSteel
   result: HeavyOrdnanceSteel1
   completetime: 3
   materials:

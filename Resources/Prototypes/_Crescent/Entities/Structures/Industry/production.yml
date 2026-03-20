@@ -100,9 +100,9 @@
     idleState: alloyfurnaceinactive
     runningState: alloyfurnaceactive
     staticRecipes:
-    - AlloyBallistics
-    - AlloyOrdnance
-    - AlloyStructural
+    - BallisticSteel
+    - HeavyOrdnanceSteel
+    - StructuralComposite
     - AlloySteel
 
 - type: entity

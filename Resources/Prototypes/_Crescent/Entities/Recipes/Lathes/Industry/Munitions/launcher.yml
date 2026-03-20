@@ -7,7 +7,7 @@
     MediumGaugeCasing: 10
     gunpowder: 25
     Steel: 10
-    AlloyBallistics: 20
+    BallisticSteel: 20
 
 - type: latheRecipe
   id: Cartridge40mmCan
@@ -166,7 +166,7 @@
     MediumGaugeCasing: 50
     OrdnanceCompound: 40
     Steel: 10
-    AlloyBallistics: 40
+    BallisticSteel: 40
 
 # 80mm / RPG-2 Rockets
 - type: latheRecipe
