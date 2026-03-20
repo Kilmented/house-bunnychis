@@ -6,10 +6,10 @@
   maxCount: 50
 
 - type: stack
-  id: gunpowder
-  name: gunpowder
+  id: Gunpowder
+  name: Gunpowder
   icon: { sprite: Objects/Misc/reagent_fillings.rsi, state: powderpile }
-  spawn: gunpowder1
+  spawn: Gunpowder1
   maxCount: 50
 
 - type: stack

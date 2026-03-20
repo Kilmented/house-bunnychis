@@ -32,11 +32,11 @@
 - type: entity
   parent: MaterialBase
   id: Gunpowder
-  name: gunpowder
+  name: Gunpowder
   description: A stabilized energetic compound used as propellant in low-yield weapon systems.
   components:
   - type: Stack
-    stackType: gunpowder
+    stackType: Gunpowder
     count: 30
   - type: Sprite
     sprite: _Crescent/Objects/Industry
@@ -53,7 +53,7 @@
 
 - type: entity
   id: Gunpowder1
-  parent: gunpowder
+  parent: Gunpowder
   suffix: Single
   components:
     - type: Stack

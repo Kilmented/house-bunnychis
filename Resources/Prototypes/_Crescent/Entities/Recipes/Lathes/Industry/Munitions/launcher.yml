@@ -5,7 +5,7 @@
   completetime: 1
   materials:
     MediumGaugeCasing: 10
-    gunpowder: 25
+    Gunpowder: 25
     Steel: 10
     BallisticSteel: 20
 
@@ -15,7 +15,7 @@
   completetime: 1
   materials:
     MediumGaugeCasing: 10
-    gunpowder: 30
+    Gunpowder: 30
     Steel: 30
 
 - type: latheRecipe
@@ -34,7 +34,7 @@
   completetime: 1
   materials:
     MediumGaugeCasing: 10
-    gunpowder: 30
+    Gunpowder: 30
     RawSulfur: 25
 
 - type: latheRecipe

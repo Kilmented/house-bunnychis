@@ -6,7 +6,7 @@
   category: AutocannonAmmo
   materials:
     MediumGaugeCasing: 15
-    gunpowder: 40
+    Gunpowder: 40
     Steel: 20
 
 - type: latheRecipe
@@ -16,7 +16,7 @@
   category: AutocannonAmmo
   materials:
     MediumGaugeCasing: 15
-    gunpowder: 50
+    Gunpowder: 50
     BallisticSteel: 20
     Steel: 10
 
@@ -28,7 +28,7 @@
   category: AutocannonAmmo
   materials:
     MediumGaugeCasing: 25
-    gunpowder: 70
+    Gunpowder: 70
     Steel: 40
 
 - type: latheRecipe
@@ -38,7 +38,7 @@
   category: AutocannonAmmo
   materials:
     MediumGaugeCasing: 25
-    gunpowder: 70
+    Gunpowder: 70
     OrdnanceCompound: 30
     Steel: 10
 
@@ -52,7 +52,7 @@
   category: AutocannonAmmo
   materials:
     MediumGaugeCasing: 50
-    gunpowder: 120
+    Gunpowder: 120
     Steel: 60
 
 - type: latheRecipe
@@ -62,7 +62,7 @@
   category: AutocannonAmmo
   materials:
     MediumGaugeCasing: 50
-    gunpowder: 120
+    Gunpowder: 120
     OrdnanceCompound: 50
     Steel: 20
 
@@ -73,7 +73,7 @@
   category: AutocannonAmmo
   materials:
     MediumGaugeCasing: 50
-    gunpowder: 100
+    Gunpowder: 100
     OrdnanceCompound: 60
     Steel: 50
 
