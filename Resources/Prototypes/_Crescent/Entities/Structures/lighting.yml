@@ -32,14 +32,12 @@
     color: "#B87411"
 
 - type: entity
-  id: ShuttleLightbulbSodium
+  id: ShuttleSmallLightSodium
   suffix: Sodium
   parent: PoweredSmallLightEmpty
   components:
   - type: Sprite
     state: base
-  - type: PointLight
-    enabled: true
   - type: PointLight
     radius: 5
     energy: 2
