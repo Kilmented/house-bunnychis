@@ -16,7 +16,7 @@
 - type: gameMap
   id: Stain
   mapName: 'Stain'
-  mapPath: /Maps/_Crescent/Shuttles/Civilian/Stain.yml
+  mapPath: /Maps/_Crescent/Shuttles/Civilian/stain.yml
   minPlayers: 0
   stations:
     Stain:
