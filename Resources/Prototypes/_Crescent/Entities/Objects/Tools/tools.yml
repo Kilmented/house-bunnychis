@@ -1877,8 +1877,6 @@
         Blunt: 20
   - type: ItemToggleSize
     activatedSize: Large
-    shape:
-      - 0,0,3,3
   - type: ItemToggleHot
   - type: ComponentToggler
     components:
