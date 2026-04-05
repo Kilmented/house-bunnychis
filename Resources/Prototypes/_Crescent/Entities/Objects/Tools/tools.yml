@@ -915,7 +915,6 @@
     state: Handyman-screw
   - type: Item
     sprite: _Crescent/Objects/Tools/New_Tools/handyman.rsi
-    state: Handyman-screw
     size: Normal
   - type: Tag
     tags:
@@ -1386,7 +1385,6 @@
           False: { visible: false }
   - type: Item
     size: Small
-    sprite: _Crescent/Objects/Tools/New_Tools/welder.rsi
   - type: ItemToggle
     predictable: false
     soundActivate:
@@ -1535,7 +1533,6 @@
           False: { visible: false }
   - type: Item
     size: Small
-    sprite: _Crescent/Objects/Tools/New_Tools/miniwelder.rsi
   - type: ItemToggle
     predictable: false
     soundActivate:
@@ -1685,7 +1682,6 @@
           False: { visible: false }
   - type: Item
     size: Huge
-    sprite: _Crescent/Objects/Tools/New_Tools/largewelder.rsi
   - type: ItemToggle
     predictable: false
     soundActivate:
@@ -1834,7 +1830,6 @@
           False: { visible: false }
   - type: Item
     size: Huge
-    sprite: _Crescent/Objects/Tools/New_Tools/blowtorch.rsi
   - type: ItemToggle
     predictable: false
     soundActivate:
