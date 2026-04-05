@@ -826,7 +826,7 @@
     maxCharges: 50
     charges: 50
   - type: Sprite
-    sprite: _Crescent/Objects/Tools/New_Tools/rpd.rsi
+    sprite: _Crescent/Objects/Tools/New_Tools/RPD.rsi
   - type: PhysicalComposition
     materialComposition:
       Steel: 500
