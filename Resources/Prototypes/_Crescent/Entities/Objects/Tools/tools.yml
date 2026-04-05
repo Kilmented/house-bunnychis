@@ -912,10 +912,10 @@
   description: Part of the Shinoharas latest civilian tools line, Basic Assembly. This tool is a multitool that includes a wirecutter, screwdriver and a knife.
   components:
   - type: Sprite
-    sprite: \_Crescent\Objects\Tools\New_Tools\handyman.rsi
+    sprite: _Crescent\Objects\Tools\New_Tools\handyman.rsi
     state: Handyman-screw
   - type: Item
-    sprite: \_Crescent\Objects\Tools\New_Tools\handyman.rsi
+    sprite: _Crescent\Objects\Tools\New_Tools\handyman.rsi
     state: Handyman-screw
     size: Normal
   - type: Tag
@@ -960,7 +960,7 @@
           path: /Audio/SimpleStation14/Items/Handling/disk_pickup.ogg
       - behavior: Cutting
         sprite:
-          sprite: /_Crescent/Objects/Tools/New_Tools/handyman.rsi
+          sprite: \_Crescent\Objects\Tools\New_Tools\handyman.rsi
           state: Handyman-cutters
         useSound:
           path: /Audio/Items/wirecutter.ogg
@@ -968,7 +968,7 @@
           path: /Audio/SimpleStation14/Items/Handling/disk_pickup.ogg
       - behavior: Cutting
         sprite:
-          sprite: /_Crescent/Objects/Tools/New_Tools/handyman.rsi
+          sprite: \_Crescent\Objects\Tools\New_Tools\handyman.rsi
           state: Handyman-knife
         useSound:
           path: /Audio/Items/wirecutter.ogg
@@ -1113,8 +1113,8 @@
     tags:
     - JawsOfLife
   - type: Sprite
-    sprite: \_Crescent\Objects\Tools\New_Tools\jaws.rsi
-    state: jaws_pry
+    sprite: _Crescent\Objects\Tools\New_Tools\jaws.rsi
+    state: jawsoflife-pry
   - type: Item
     size: Normal
   - type: ToolTileCompatible
@@ -1132,13 +1132,13 @@
     entries:
       - behavior: Prying
         sprite:
-          sprite: \_Crescent\Objects\Tools\New_Tools\jaws.rsi
+          sprite: _Crescent\Objects\Tools\New_Tools\jaws.rsi
           state: jawsoflife-pry
         useSound: /Audio/Items/jaws_pry.ogg
         changeSound: /Audio/Items/change_jaws.ogg
       - behavior: Cutting
         sprite:
-          sprite: \_Crescent\Objects\Tools\New_Tools\jaws.rsi
+          sprite: _Crescent\Objects\Tools\New_Tools\jaws.rsi
           state: jawsoflife-cutter
         useSound: /Audio/Items/jaws_cut.ogg
         changeSound: /Audio/Items/change_jaws.ogg
