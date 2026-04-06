@@ -1,5 +1,5 @@
 - type: gameMap
-  id: Iron Ring
+  id: IronRing
   mapName: 'Iron Ring'
   mapPath: /Maps/_Crescent/Stations/ironring.yml
   minPlayers: 0
