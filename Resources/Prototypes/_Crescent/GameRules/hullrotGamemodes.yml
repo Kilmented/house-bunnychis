@@ -643,3 +643,25 @@
         posY: 0
         IFFColor: IndianRed
         IFFFaction: TFSC
+
+
+- type: gamePreset
+  id: PlanetfallMode
+  name: Planetfall SHI VS PTA HYPERWAR
+  showInVote: true
+  description: Corporate forces from Shinohara and Pang Tai are deployed onto a simulation to conduct live fire tests.
+  rules:
+  - PlanetfallGameRule
+
+- type: entity
+  id: PlanetfallGameRule
+  parent: BaseGameRule
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: AdventureRule
+    gameMapsByID:
+      PlanetfallMap:
+        gameMapID: PlanetfallMap
+        posX: 0
+        posY: 0
+        IFFColor: White
