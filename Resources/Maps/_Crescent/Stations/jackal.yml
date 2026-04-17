@@ -24065,7 +24065,7 @@ entities:
       parent: 1
 - proto: CrescentMultitool
   entities:
-  - uid: 2619
+  - uid: 3916
     components:
     - type: Transform
       parent: 2618
