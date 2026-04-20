@@ -152,11 +152,11 @@
     zeroVisible: false
 
 
-# 12ga
+# 12Ga
 
 - type: entity
-  id: CrescentCartridge_12ga
-  name: Cartridge (12ga)
+  id: CrescentCartridge_12Ga
+  name: Cartridge (12Ga)
   parent: CrescentBaseCartridge
   abstract: False
   components:
@@ -164,18 +164,18 @@
     tags:
     - ShellShotgun
     - Cartridge
-    - CrescentCartridge_12ga
+    - CrescentCartridge_12Ga
   - type: CartridgeAmmo
     proto: Crescent12gPelletShotgunSpread
   - type: Sprite
-    sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Casings/12ga.rsi
+    sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Casings/12Ga.rsi
     layers:
     - state: base
       map: ["enum.AmmoVisualLayers.Base"]
 
 - type: entity
-  id: CrescentBullet_12ga
-  name: bullet (12ga)
+  id: CrescentBullet_12Ga
+  name: bullet (12Ga)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -189,25 +189,25 @@
 - type: entity
   id: Crescent12gPelletShotgunSpread
   categories: [ HideSpawnMenu ]
-  parent: CrescentBullet_12ga
+  parent: CrescentBullet_12Ga
   components:
   - type: ProjectileSpread
-    proto: CrescentBullet_12ga
+    proto: CrescentBullet_12Ga
     count: 5
     spread: 12.5
 
 - type: entity
   abstract: False
   parent: CrescentBaseAmmoBox
-  id: CrescentAmmoBox_12ga
-  name: ammunition box (12ga)
+  id: CrescentAmmoBox_12Ga
+  name: ammunition box (12Ga)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
-        - CrescentCartridge_12ga
-    proto: CrescentCartridge_12ga
+        - CrescentCartridge_12Ga
+    proto: CrescentCartridge_12Ga
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Boxes/Shotgun.rsi
     layers:
@@ -221,23 +221,23 @@
     zeroVisible: false
 
 - type: entity
-  id: CrescentMagazine_12ga
-  name: "10-round magazine (12ga)"
+  id: CrescentMagazine_12Ga
+  name: "10-round magazine (12Ga)"
   parent: CrescentBaseMagazine
   abstract: False
   components:
   - type: Tag
     tags:
-      - Magazine_12ga
+      - Magazine_12Ga
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
-        - CrescentCartridge_12ga
-    proto: CrescentCartridge_12ga
+        - CrescentCartridge_12Ga
+    proto: CrescentCartridge_12Ga
     capacity: 10
   - type: Sprite
-    sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Magazine/12ga_Mag.rsi
+    sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Magazine/12Ga_Mag.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -248,11 +248,11 @@
     steps: 7
     zeroVisible: false
 
-# 4ga
+# 4Ga
 
 - type: entity
-  id: CrescentCartridge_4ga
-  name: Cartridge (4ga)
+  id: CrescentCartridge_4Ga
+  name: Cartridge (4Ga)
   parent: CrescentBaseCartridge
   abstract: False
   components:
@@ -260,18 +260,18 @@
     tags:
     - ShellShotgun
     - Cartridge
-    - CrescentCartridge_4ga
+    - CrescentCartridge_4Ga
   - type: CartridgeAmmo
-    proto: Crescent4gaPelletShotgunSpread
+    proto: Crescent4GaPelletShotgunSpread
   - type: Sprite
-    sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Casings/4ga.rsi
+    sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Casings/4Ga.rsi
     layers:
     - state: base
       map: ["enum.AmmoVisualLayers.Base"]
 
 - type: entity
-  id: CrescentBullet_4ga
-  name: bullet (4ga)
+  id: CrescentBullet_4Ga
+  name: bullet (4Ga)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -283,27 +283,27 @@
     stoppingPower: 4
 
 - type: entity
-  id: Crescent4gaPelletShotgunSpread
+  id: Crescent4GaPelletShotgunSpread
   categories: [ HideSpawnMenu ]
-  parent: CrescentBullet_12ga
+  parent: CrescentBullet_12Ga
   components:
   - type: ProjectileSpread
-    proto: CrescentBullet_4ga
+    proto: CrescentBullet_4Ga
     count: 4
     spread: 12.5
 
 - type: entity
   abstract: False
   parent: CrescentBaseAmmoBox
-  id: CrescentAmmoBox_4ga
-  name: ammunition box (4ga)
+  id: CrescentAmmoBox_4Ga
+  name: ammunition box (4Ga)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
-        - CrescentCartridge_4ga
-    proto: CrescentCartridge_4ga
+        - CrescentCartridge_4Ga
+    proto: CrescentCartridge_4Ga
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Boxes/Shotgun.rsi
     layers:
