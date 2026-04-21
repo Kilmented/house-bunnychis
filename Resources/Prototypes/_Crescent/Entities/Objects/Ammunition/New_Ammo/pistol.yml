@@ -64,7 +64,7 @@
   components:
   - type: Tag
     tags:
-      - Magazine_762x25
+      - CrescentMagazine_762x25
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
@@ -180,7 +180,7 @@
   components:
   - type: Tag
     tags:
-      - Magazine_46x30
+      - CrescentMagazine_46x30
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
@@ -209,7 +209,7 @@
   components:
   - type: Tag
     tags:
-      - Magazine_4.6x30
+      - CrescentSMGMagazine_46x30
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
@@ -325,7 +325,7 @@
   components:
   - type: Tag
     tags:
-      - Magazine_45
+      - CrescentMagazine_45
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
@@ -354,7 +354,7 @@
   components:
   - type: Tag
     tags:
-      - SMGMagazine_45
+      - CrescentSMGMagazine_45
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
@@ -441,7 +441,7 @@
   components:
   - type: Tag
     tags:
-      - Magazine_9x19
+      - CrescentMagazine_9x19
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
@@ -470,7 +470,7 @@
   components:
   - type: Tag
     tags:
-      - Magazine_9x19
+      - CrescentSMGMagazine_9x19
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
@@ -557,7 +557,7 @@
   components:
   - type: Tag
     tags:
-      - Magazine_9x18
+      - CrescentMagazine_9x18
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
@@ -586,7 +586,7 @@
   components:
   - type: Tag
     tags:
-      - Magazine_9x18
+      - CrescentSMGMagazine_9x18
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:

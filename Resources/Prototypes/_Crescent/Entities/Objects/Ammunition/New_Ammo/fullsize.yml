@@ -1,7 +1,7 @@
 # 7.62x54
 
 - type: entity
-  id: CrescentCartridge_7.62x54mm
+  id: CrescentCartridge_762x54
   name: Cartridge (7.62x54mm)
   parent: CrescentBaseCartridge
   abstract: False
@@ -9,9 +9,9 @@
   - type: Tag
     tags:
     - Cartridge
-    - CrescentCartridge_7.62x54mm
+    - CrescentCartridge_762x54
   - type: CartridgeAmmo
-    proto: CrescentBullet_7.62x54mm
+    proto: CrescentBullet_762x54
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Casings/7.62x54.rsi
     layers:
@@ -19,7 +19,7 @@
       map: ["enum.AmmoVisualLayers.Base"]
 
 - type: entity
-  id: CrescentBullet_7.62x54mm
+  id: CrescentBullet_762x54
   name: bullet (7.62x54mm)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -34,15 +34,15 @@
 - type: entity
   abstract: False
   parent: CrescentBaseAmmoBox
-  id: CrescentAmmoBox_7.62x54mm
+  id: CrescentAmmoBox_762x54
   name: ammunition box (7.62x54mm)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
-        - CrescentCartridge_7.62x54mm
-    proto: CrescentCartridge_7.62x54mm
+        - CrescentCartridge_762x54
+    proto: CrescentCartridge_762x54
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Boxes/Fullsize.rsi
     layers:
@@ -56,20 +56,20 @@
     zeroVisible: false
 
 - type: entity
-  id: CrescentMagazine7.62x54mm
+  id: CrescentMagazine_762x54
   name: "6-round magazine (7.62x54mm)"
   parent: CrescentBaseMagazine
   abstract: False
   components:
   - type: Tag
     tags:
-      - Magazine_7.62x54mm
+      - CrescentMagazine_762x54
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
-        - CrescentCartridge_7.62x54mm
-    proto: CrescentCartridge_7.62x54mm
+        - CrescentCartridge_762x54
+    proto: CrescentCartridge_762x54
     capacity: 6
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Magazine/7.62x54_Mag.rsi
@@ -84,20 +84,20 @@
     zeroVisible: false
 
 - type: entity
-  id: CrescentBoxMagazine7.62x54mm
+  id: CrescentBoxMagazine_762x54
   name: "100-round magazine (7.62x54mm)"
   parent: CrescentBaseMagazine
   abstract: False
   components:
   - type: Tag
     tags:
-      - BoxMagazine_7.62x54mm
+      - CrescentBoxMagazine_762x54
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
-        - CrescentCartridge_7.62x54mm
-    proto: CrescentCartridge_7.62x54mm
+        - CrescentCartridge_762x54
+    proto: CrescentCartridge_762x54
     capacity: 100
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Magazine/7.62x54_Box.rsi
@@ -112,7 +112,7 @@
     zeroVisible: false
 
 - type: entity
-  id: CrescentClip_7.62x54mm
+  id: CrescentClip_762x54
   name: "Clip (7.62x54mm)"
   parent: CrescentBaseMagazine
   abstract: False
@@ -120,13 +120,13 @@
   - type: SpeedLoader
   - type: Tag
     tags:
-      - Clip_7.62x54mm
+      - CrescentClip_762x54
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
-        - CrescentCartridge_7.62x54mm
-    proto: CrescentCartridge_7.62x54mm
+        - CrescentCartridge_762x54
+    proto: CrescentCartridge_762x54
     capacity: 4
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Magazine/7.62x54_Clip.rsi
@@ -143,7 +143,7 @@
 # 7.62x51
 
 - type: entity
-  id: CrescentCartridge_7.62x51mm
+  id: CrescentCartridge_762x51
   name: Cartridge (7.62x51mm)
   parent: CrescentBaseCartridge
   abstract: False
@@ -151,9 +151,9 @@
   - type: Tag
     tags:
     - Cartridge
-    - CrescentCartridge_7.62x51mm
+    - CrescentCartridge_762x51
   - type: CartridgeAmmo
-    proto: CrescentBullet_7.62x51mm
+    proto: CrescentBullet_762x51
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Casings/7.62x51.rsi
     layers:
@@ -161,7 +161,7 @@
       map: ["enum.AmmoVisualLayers.Base"]
 
 - type: entity
-  id: CrescentBullet_7.62x51mm
+  id: CrescentBullet_762x51
   name: bullet (7.62x51mm)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -176,15 +176,15 @@
 - type: entity
   abstract: False
   parent: CrescentBaseAmmoBox
-  id: CrescentAmmoBox_7.62x51mm
+  id: CrescentAmmoBox_762x51
   name: ammunition box (7.62x51mm)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
-        - CrescentCartridge_7.62x51mm
-    proto: CrescentCartridge_7.62x51mm
+        - CrescentCartridge_762x51
+    proto: CrescentCartridge_762x51
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Boxes/Fullsize.rsi
     layers:
@@ -198,20 +198,20 @@
     zeroVisible: false
 
 - type: entity
-  id: CrescentMagazine7.62x51mm
+  id: CrescentMagazine_762x51
   name: "30-round magazine (7.62x51mm)"
   parent: CrescentBaseMagazine
   abstract: False
   components:
   - type: Tag
     tags:
-      - Magazine_7.62x51mm
+      - CrescentMagazine_762x51
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
-        - CrescentCartridge_7.62x51mm
-    proto: CrescentCartridge_7.62x51mm
+        - CrescentCartridge_762x51
+    proto: CrescentCartridge_762x51
     capacity: 30
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Magazine/7.62x51_Mag.rsi
@@ -226,20 +226,20 @@
     zeroVisible: false
 
 - type: entity
-  id: CrescentBoxMagazine7.62x51mm
+  id: CrescentBoxMagazine_762x51
   name: "100-round magazine (7.62x51mm)"
   parent: CrescentBaseMagazine
   abstract: False
   components:
   - type: Tag
     tags:
-      - BoxMagazine_7.62x51mm
+      - CrescentBoxMagazine_762x51
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
-        - CrescentCartridge_7.62x51mm
-    proto: CrescentCartridge_7.62x51mm
+        - CrescentCartridge_762x51
+    proto: CrescentCartridge_762x51
     capacity: 100
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Magazine/7.62x51_Box.rsi
@@ -256,7 +256,7 @@
 # 12.7x55
 
 - type: entity
-  id: CrescentCartridge_12.7x55mm
+  id: CrescentCartridge_127x55
   name: Cartridge (12.7x55mm)
   parent: CrescentBaseCartridge
   abstract: False
@@ -264,9 +264,9 @@
   - type: Tag
     tags:
     - Cartridge
-    - CrescentCartridge_12.7x55mm
+    - CrescentCartridge_127x55
   - type: CartridgeAmmo
-    proto: CrescentBullet_12.7x55mm
+    proto: CrescentBullet_127x55
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Casings/12.7x55.rsi
     layers:
@@ -274,7 +274,7 @@
       map: ["enum.AmmoVisualLayers.Base"]
 
 - type: entity
-  id: CrescentBullet_12.7x55mm
+  id: CrescentBullet_127x55
   name: bullet (12.7x55mm)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -289,15 +289,15 @@
 - type: entity
   abstract: False
   parent: CrescentBaseAmmoBox
-  id: CrescentAmmoBox_12.7x55mm
+  id: CrescentAmmoBox_127x55
   name: ammunition box (12.7x55mm)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
-        - CrescentCartridge_12.7x55mm
-    proto: CrescentCartridge_12.7x55mm
+        - CrescentCartridge_127x55
+    proto: CrescentCartridge_127x55
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Boxes/Fullsize.rsi
     layers:
@@ -311,20 +311,20 @@
     zeroVisible: false
 
 - type: entity
-  id: CrescentMagazine12.7x55mm
+  id: CrescentMagazine_127x55
   name: "10-round magazine (12.7x55mm)"
   parent: CrescentBaseMagazine
   abstract: False
   components:
   - type: Tag
     tags:
-      - CrescentMagazine_12.7x55mm
+      - CrescentMagazine_127x55
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
-        - CrescentCartridge_12.7x55mm
-    proto: CrescentCartridge_12.7x55mm
+        - CrescentCartridge_127x55
+    proto: CrescentCartridge_127x55
     capacity: 10
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Magazine/12.7x55_Mag.rsi
@@ -339,7 +339,7 @@
     zeroVisible: false
 
 - type: entity
-  id: CrescentSpeedLoader_12.7x55mm
+  id: CrescentSpeedLoader_127x55
   name: "Speedloader (12.7x55mm)"
   parent: CrescentBaseMagazine
   abstract: False
@@ -347,13 +347,13 @@
   - type: SpeedLoader
   - type: Tag
     tags:
-      - SpeedLoader_12.7x55mm
+      - CrescentSpeedLoader_127x55
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
-        - CrescentCartridge_12.7x55mm
-    proto: CrescentCartridge_12.7x55mm
+        - CrescentCartridge_127x55
+    proto: CrescentCartridge_127x55
     capacity: 4
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Magazine/12.7x55_SpdLdr.rsi
@@ -370,17 +370,17 @@
 # .277
 
 - type: entity
-  id: CrescentCartridge_.277
-  name: Cartridge (.277)
+  id: CrescentCartridge_277
+  name: Cartridge (.277mm)
   parent: CrescentBaseCartridge
   abstract: False
   components:
   - type: Tag
     tags:
     - Cartridge
-    - CrescentCartridge_.277
+    - CrescentCartridge_277
   - type: CartridgeAmmo
-    proto: CrescentBullet_.277
+    proto: CrescentBullet_277
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Casings/.277.rsi
     layers:
@@ -388,7 +388,7 @@
       map: ["enum.AmmoVisualLayers.Base"]
 
 - type: entity
-  id: CrescentBullet_.277
+  id: CrescentBullet_277
   name: bullet (.277)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -403,15 +403,15 @@
 - type: entity
   abstract: False
   parent: CrescentBaseAmmoBox
-  id: CrescentAmmoBox_.277
+  id: CrescentAmmoBox_277
   name: ammunition box (.277)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
-        - CrescentCartridge_.277
-    proto: CrescentCartridge_.277
+        - CrescentCartridge_277
+    proto: CrescentCartridge_277
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Boxes/Fullsize.rsi
     layers:
@@ -425,20 +425,20 @@
     zeroVisible: false
 
 - type: entity
-  id: CrescentMagazine_.277
+  id: CrescentMagazine_277
   name: "30-round magazine (.277)"
   parent: CrescentBaseMagazine
   abstract: False
   components:
   - type: Tag
     tags:
-      - CrescentMagazine_.277
+      - CrescentMagazine_277
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
-        - CrescentCartridge_.277
-    proto: CrescentCartridge_.277
+        - CrescentCartridge_277
+    proto: CrescentCartridge_277
     capacity: 30
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Magazine/.277_Mag.rsi
@@ -455,7 +455,7 @@
 # 8.2x60
 
 - type: entity
-  id: CrescentCartridge_8.2x60
+  id: CrescentCartridge_82x60
   name: Cartridge (8.2x60)
   parent: CrescentBaseCartridge
   abstract: False
@@ -463,9 +463,9 @@
   - type: Tag
     tags:
     - Cartridge
-    - CrescentCartridge_8.2x60
+    - CrescentCartridge_82x60
   - type: CartridgeAmmo
-    proto: CrescentBullet_8.2x60
+    proto: CrescentBullet_82x60
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Casings/8.2x60.rsi
     layers:
@@ -473,7 +473,7 @@
       map: ["enum.AmmoVisualLayers.Base"]
 
 - type: entity
-  id: CrescentBullet_8.2x60
+  id: CrescentBullet_82x60
   name: bullet (8.2x60)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -488,15 +488,15 @@
 - type: entity
   abstract: False
   parent: CrescentBaseAmmoBox
-  id: CrescentAmmoBox_8.2x60
+  id: CrescentAmmoBox_82x60
   name: ammunition box (8.2x60)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
-        - CrescentCartridge_8.2x60
-    proto: CrescentCartridge_8.2x60
+        - CrescentCartridge_82x60
+    proto: CrescentCartridge_82x60
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Boxes/Fullsize.rsi
     layers:
@@ -510,20 +510,20 @@
     zeroVisible: false
 
 - type: entity
-  id: CrescentMagazine_8.2x60
+  id: CrescentMagazine_82x60
   name: "5-round magazine (8.2x60)"
   parent: CrescentBaseMagazine
   abstract: False
   components:
   - type: Tag
     tags:
-      - CrescentMagazine_8.2x60
+      - CrescentMagazine_82x60
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
-        - CrescentCartridge_8.2x60
-    proto: CrescentCartridge_8.2x60
+        - CrescentCartridge_82x60
+    proto: CrescentCartridge_82x60
     capacity: 5
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Ammunition/New_Ammo/Magazine/8.2x60_Mag.rsi

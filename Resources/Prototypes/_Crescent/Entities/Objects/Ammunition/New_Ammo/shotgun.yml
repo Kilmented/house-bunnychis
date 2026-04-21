@@ -74,7 +74,7 @@
   components:
   - type: Tag
     tags:
-      - Magazine_185Ga
+      - CrescentMagazine_185Ga
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
@@ -102,11 +102,12 @@
   components:
   - type: Tag
     tags:
-      - BoxMagazine185Ga
+      - CrescentBoxMagazine185Ga
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
+        - Cartridge
         - CrescentCartridge_185Ga
     proto: CrescentCartridge_185Ga
     capacity: 20
@@ -131,7 +132,7 @@
   - type: SpeedLoader
   - type: Tag
     tags:
-      - SpeedLoader_185Ga
+      - CrescentSpeedLoader_185Ga
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
@@ -228,7 +229,7 @@
   components:
   - type: Tag
     tags:
-      - Magazine_12Ga
+      - CrescentMagazine_12Ga
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
