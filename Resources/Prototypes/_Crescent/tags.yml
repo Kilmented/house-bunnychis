@@ -112,6 +112,8 @@
   id: CrescentCartridge_762x25
 - type: Tag
   id: CrescentMagazine_762x25
+- type: Tag
+  id: CrescentSMGMagazine_762x25
 
 - type: Tag
   id: CrescentCartridge_46x30
