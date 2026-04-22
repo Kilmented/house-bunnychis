@@ -17,12 +17,12 @@
     range: 1.75
     damage:
       types:
-        Blunt: 50
+        Blunt: 75
         Structural: 150
     heavyDamageBaseModifier: 1
-    heavyStaminaCost: 20
+    heavyStaminaCost: 35
     heavyRateModifier: 1.167 # 1.75 attack rate with 1.5 base
-    maxTargets: 4
+    maxTargets: 1
     soundHit:
       path: /Audio/Nyanotrasen/Weapons/club.ogg
   # - type: DamageOtherOnHit
