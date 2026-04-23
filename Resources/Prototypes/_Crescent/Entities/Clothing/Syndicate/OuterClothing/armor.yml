@@ -27,9 +27,11 @@
     armorRepair: SteelPlate
     initialModifiers:
       flatReductions:
-        Heat: 15
-        Caustic: 15
-        Radiation: 35
+        Blunt: 4
+        Slash: 4
+        Heat: 6
+        Cold: 6
+        Caustic: 6
   - type: ClothingSpeedModifier
     walkModifier: 0.97
     sprintModifier: 0.97
@@ -72,9 +74,11 @@
     armorRepair: SteelPlate
     initialModifiers:
       flatReductions:
-        Heat: 15
-        Caustic: 15
-        Radiation: 35
+        Blunt: 6
+        Slash: 6
+        Heat: 6
+        Cold: 6
+        Caustic: 6
   - type: ClothingSpeedModifier
     walkModifier: 0.95
     sprintModifier: 0.95
@@ -118,8 +122,11 @@
     armorRepair: PlasteelPlate
     initialModifiers:
       flatReductions:
-        Heat: 15
-        Caustic: 15
+        Blunt: 4
+        Slash: 4
+        Heat: 6
+        Cold: 6
+        Caustic: 6
   - type: ClothingAddFaction
     faction: TFSC
   - type: ReverseEngineering # Sector Crescent
@@ -153,8 +160,11 @@
     armorRepair: NTCeramic
     initialModifiers:
       flatReductions:
-        Heat: 15
-        Caustic: 15
+        Blunt: 8
+        Slash: 8
+        Heat: 2
+        Cold: 2
+        Caustic: 2
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
@@ -195,8 +205,11 @@
     armorRepair: NTCeramic
     initialModifiers:
       flatReductions:
-        Heat: 15
-        Caustic: 15
+        Blunt: 4
+        Slash: 4
+        Heat: 6
+        Cold: 6
+        Caustic: 6
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
@@ -237,8 +250,11 @@
     armorRepair: NTCeramic
     initialModifiers:
       flatReductions:
-        Heat: 15
-        Caustic: 15
+        Blunt: 6
+        Slash: 6
+        Heat: 6
+        Cold: 6
+        Caustic: 6
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1

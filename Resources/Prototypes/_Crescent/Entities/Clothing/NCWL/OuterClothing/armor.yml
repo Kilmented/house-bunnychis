@@ -437,8 +437,8 @@
       flatReductions:
         Blunt: 5
         Slash: 5
-        Piercing: 5
         Heat: 5
+        Cold: 5
         Caustic: 5
   - type: ClothingSpeedModifier
     walkModifier: 1
@@ -483,11 +483,11 @@
     armorRepair: HomelandAlloy
     initialModifiers:
       flatReductions:
-        Blunt: 5
-        Slash: 5
-        Piercing: 5
-        Heat: 5
-        Caustic: 5
+        Blunt: 2
+        Slash: 2
+        Heat: 8
+        Cold: 8
+        Caustic: 8
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
@@ -533,11 +533,11 @@
     armorRepair: HomelandAlloy
     initialModifiers:
       flatReductions:
-        Blunt: 10
-        Slash: 10
-        Piercing: 15
-        Heat: 30
-        Caustic: 30
+        Blunt: 5
+        Slash: 5
+        Heat: 5
+        Cold: 5
+        Caustic: 5
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
@@ -581,11 +581,11 @@
     armorRepair: HomelandAlloy
     initialModifiers:
       flatReductions:
-        Blunt: 10
-        Slash: 10
-        Piercing: 20
-        Heat: 30
-        Caustic: 30
+        Blunt: 6
+        Slash: 6
+        Heat: 6
+        Cold: 6
+        Caustic: 6
   - type: ClothingSpeedModifier
     walkModifier: 0.97
     sprintModifier: 0.97
@@ -631,11 +631,11 @@
     armorRepair: HomelandAlloy
     initialModifiers:
       flatReductions:
-        Blunt: 15
-        Slash: 15
-        Piercing: 30
-        Heat: 35
-        Caustic: 35
+        Blunt: 8
+        Slash: 8
+        Heat: 8
+        Cold: 8
+        Caustic: 8
   - type: ClothingSpeedModifier
     walkModifier: 0.6
     sprintModifier: 0.6
