@@ -341,8 +341,11 @@
     armorRepair: PlasteelEncasedKevlar
     initialModifiers:
       flatReductions:
-        Heat: 20
-        Caustic: 15
+        Blunt: 10
+        Slash: 10
+        Heat: 2
+        Cold: 2
+        Caustic: 2
   - type: ClothingSpeedModifier
     walkModifier: 1.0
     sprintModifier: 1.0
@@ -379,8 +382,11 @@
     armorRepair: PlasteelEncasedKevlar
     initialModifiers:
       flatReductions:
-        Heat: 20
-        Caustic: 15
+        Blunt: 6
+        Slash: 6
+        Heat: 2
+        Cold: 2
+        Caustic: 2
   - type: ClothingSpeedModifier
     walkModifier: 1.0
     sprintModifier: 1.0
@@ -419,8 +425,11 @@
     armorRepair: NTPolymer
     initialModifiers:
       flatReductions:
-        Heat: 35
-        Caustic: 35
+        Blunt: 12
+        Slash: 12
+        Heat: 4
+        Cold: 4
+        Caustic: 4
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 1.0
