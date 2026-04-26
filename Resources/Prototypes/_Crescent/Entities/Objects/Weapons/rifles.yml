@@ -494,7 +494,7 @@
 - type: entity
   name: PTA D5 Takemura 7.62x51mm/5.56x45mm
   parent: [BaseWeaponRifle, StreeCredRedeemable]
-  id: WeaponRiflefTakemura
+  id: WeaponRifleTakemura
   description: A multicaliber fast shooting battle rifle from the Pang Tai Arms design labs. Capable of shooting both 7.62x51mm and 5.56x45mm.
   components:
   - type: Item
