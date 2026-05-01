@@ -20,7 +20,7 @@
     color: orange
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 3 #540
+    lifetime: 2.33
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/pdtcasing.rsi
     layers:
@@ -35,6 +35,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
   - type: ProjectileIFF
     visualType: Circle
     color: White
@@ -49,7 +52,7 @@
     color: orange
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 7.7 #850
+    lifetime: 3
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/pdtcasing.rsi
     layers:
@@ -114,7 +117,7 @@
     color: orange
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 9.8 #980
+    lifetime: 4
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/pdtcasing.rsi
     layers:
@@ -181,7 +184,7 @@
     color: orange
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 15.8 #1500
+    lifetime: 6.7
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/pdtcasing.rsi
     layers:
@@ -376,7 +379,7 @@
         Structural: 950
         Piercing: 300
   - type: TimedDespawn
-    lifetime: 22.2 #1995
+    lifetime: 10
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/630_armorpiercing_shell_casing.rsi
     layers:
@@ -517,7 +520,7 @@
     tags:
       - FlakShell
   - type: TimedDespawn
-    lifetime: 15 #1500m
+    lifetime: 4
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/flak.rsi
     layers:
