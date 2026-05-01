@@ -57,7 +57,7 @@
       tags:
         - Cartridge35mm
     proto: Cartridge35mm
-    capacity: 150
+    capacity: 100
     soundRack:
       path: /Audio/Weapons/Guns/Bolt/lmg_bolt_closed.ogg
       params:
@@ -450,7 +450,7 @@
   id: PowerCageGlare
   parent: BaseItem
   name: Power Cage - Glare
-  description: A rechargeable power cage, configured for use as as a power source for 'Glare' ship-laser weaponry and its variants. 
+  description: A rechargeable power cage, configured for use as as a power source for 'Glare' ship-laser weaponry and its variants.
   components:
   - type: Item
     size: Ginormous
