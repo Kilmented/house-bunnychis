@@ -7,6 +7,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
   - type: ShipWeaponProjectile
   - type: Projectile
     ignoreWeaponGrid: true
@@ -146,6 +149,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
   - type: ShipWeaponProjectile
   - type: Projectile
     ignoreWeaponGrid: true
@@ -298,6 +304,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
   - type: ShipWeaponProjectile
   - type: Projectile
     ignoreWeaponGrid: true
@@ -507,6 +516,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
   - type: ShipWeaponProjectile
   - type: Projectile
     ignoreWeaponGrid: true
@@ -568,75 +580,6 @@
       - !type:ExplodeBehavior
   # - type: IgnoresHullrotShields
 
-# - type: entity
-#   id: ProjectileGargoyleNCWL
-#   name: homeguard-issue 240mm heatseeking heavy torpedo
-#   description: Shit.
-#   parent: BaseBulletTrigger
-#   categories: [ HideSpawnMenu ]
-#   components:
-#   - type: ProjectilePhasePrevent
-#   - type: ShipWeaponProjectile
-#   - type: Projectile
-#     ignoreWeaponGrid: true
-#     damage:
-#       types:
-#         Structural: 1000
-#         Blunt: 200
-#   - type: TimedDespawn
-#     lifetime: 40 #2040m
-#   - type: Sprite
-#     sprite: _Crescent/Objects/Turrets/Ammunition/Projectiles/gargoyle.rsi
-#     layers:
-#       - state: ncwlgargoylefired
-#   - type: ExplodeOnTrigger
-#   - type: Explosive
-#     explosionType: Default
-#     maxIntensity: 750
-#     intensitySlope: 50
-#     totalIntensity: 8000
-#     maxTileBreak: 16
-#   - type: PointLight
-#     radius: 3.5
-#     color: orange
-#     energy: 0.5
-#   - type: ProjectileIFF
-#     visualType: SquareReticle
-#     color: Red
-#   - type: HeatSeeking
-#     rotationSpeed: 10
-#     acceleration: 35
-#     topSpeed: 110
-#     fieldOfView: 25
-#     defaultSeekingRange: 2300
-#     guidanceAlgorithm: PurePursuit
-#   - type: Fixtures
-#     fixtures:
-#       projectile:
-#         shape:
-#           !type:PhysShapeAabb
-#           bounds: "-0.25,-0.45,0.25,0.25"
-#         layer:
-#         - BulletImpassable
-#         mask:
-#         - Impassable
-#         - BulletImpassable
-#         hard: true
-#         density: 100
-#   - type: Damageable
-#     damageContainer: StructuralInorganic
-#     damageModifierSet: StructuralMetallic
-#   - type: Destructible
-#     thresholds:
-#     - trigger:
-#         !type:DamageTrigger
-#         damage: 900 #its a very slow and not agile missile
-#       behaviors:
-#       - !type:DoActsBehavior
-#         acts: [ "Destruction" ]
-#       - !type:ExplodeBehavior
-#   - type: IgnoresHullrotShields
-
 #catapult
 
 - type: entity
@@ -647,6 +590,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
   - type: ShipWeaponProjectile
   - type: Projectile
     ignoreWeaponGrid: true
@@ -719,6 +665,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
   - type: ShipWeaponProjectile
   - type: Projectile
     damage:
