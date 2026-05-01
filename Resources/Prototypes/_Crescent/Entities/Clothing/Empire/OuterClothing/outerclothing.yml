@@ -712,18 +712,6 @@
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.6
-<<<<<<< Updated upstream
-  - type: DegradeableArmor
-    armorMaxHealth: 500
-    armorType: Metallic
-    armorRepair: PlasteelPlate
-    initialModifiers:
-      flatReductions:
-        Blunt: 4
-        Heat: 4
-        Cold: 4
-        Caustic: 4
-=======
   - type: Armor
     modifiers:
       coefficients:
@@ -732,7 +720,6 @@
         Heat: 0.6
         Cold: 0.6
         Caustic: 0.6
->>>>>>> Stashed changes
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
