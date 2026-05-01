@@ -429,17 +429,14 @@
       availableModes:
         - FullAuto
       soundGunshot: /Audio/Weapons/Guns/Gunshots/rpgfire.ogg
-    - type: RechargeBasicEntityAmmo
-      rechargeCooldown: 2
-      rechargeSound:
-        path: /Audio/Weapons/Guns/Bolt/lmg_bolt_closed.ogg
-        params:
-          pitch: 1.2
-          variation: 0.08
-    - type: BasicEntityAmmoProvider
-      proto: PilaRocketProjectile
+    - type: BallisticAmmoProvider
+      cycleable: false
       capacity: 12
-      count: 12
+      fillWithDoAfter: false
+      proto: Cartridge30mmRocket
+      whitelist:
+        tags:
+        - CartridgePila
     - type: ApcPowerReceiver
       powerLoad: 1000
     - type: HardpointAnchorableOnly
