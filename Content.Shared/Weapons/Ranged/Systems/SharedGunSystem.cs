@@ -1031,7 +1031,7 @@ public abstract partial class SharedGunSystem : EntitySystem
         Appearance.SetData(uid, AmmoVisuals.Spent, spent);
 
         if (spent && !cartridge.DeleteOnSpawn)
-            EnsureComp<TimedDespawnComponent>(uid);
+            EnsureComp<TimedDespawnComponent>(uid).Lifetime = 30f;
     }
 
     /// <summary>
