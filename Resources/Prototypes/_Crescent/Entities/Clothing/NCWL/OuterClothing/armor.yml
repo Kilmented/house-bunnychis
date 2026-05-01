@@ -11,8 +11,8 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.75
-        Slash: 0.75
+        Blunt: 0.85
+        Slash: 0.85
         Heat: 0.9
         Cold: 0.9
         Caustic: 0.9
@@ -45,8 +45,8 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.75
-        Slash: 0.75
+        Blunt: 0.85
+        Slash: 0.85
         Heat: 0.9
         Cold: 0.9
         Caustic: 0.9
@@ -85,8 +85,8 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.6
-        Slash: 0.6
+        Blunt: 0.75
+        Slash: 0.75
         Heat: 0.8
         Cold: 0.8
         Caustic: 0.8
@@ -122,8 +122,8 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.8
-        Slash: 0.8
+        Blunt: 0.85
+        Slash: 0.85
         Heat: 0.9
         Cold: 0.9
         Caustic: 0.9
@@ -155,8 +155,8 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.8
-        Slash: 0.8
+        Blunt: 0.85
+        Slash: 0.85
         Heat: 0.9
         Cold: 0.9
         Caustic: 0.9
@@ -196,11 +196,11 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.6
-        Slash: 0.6
-        Heat: 0.8
-        Cold: 0.8
-        Caustic: 0.8
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.9
+        Cold: 0.9
+        Caustic: 0.9
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
@@ -234,7 +234,7 @@
     modifiers:
       coefficients:
         Blunt: 0.8
-        Slash: 0.8
+        Slash: 0.85
         Heat: 0.9
         Cold: 0.9
         Caustic: 0.9
@@ -268,7 +268,7 @@
     modifiers:
       coefficients:
         Blunt: 0.8
-        Slash: 0.8
+        Slash: 0.85
         Heat: 0.9
         Cold: 0.9
         Caustic: 0.9
@@ -301,8 +301,8 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.8
-        Slash: 0.8
+        Blunt: 0.85
+        Slash: 0.85
         Heat: 0.9
         Cold: 0.9
         Caustic: 0.9
@@ -336,8 +336,8 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.8
-        Slash: 0.8
+        Blunt: 0.85
+        Slash: 0.85
         Heat: 0.9
         Cold: 0.9
         Caustic: 0.9
@@ -408,12 +408,11 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Heat: 0.6
-        Cold: 0.6
-        Caustic: 0.6
-        Radiation: 0.4
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.8
+        Cold: 0.8
+        Caustic: 0.8
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
@@ -502,11 +501,11 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.75
-        Slash: 0.75
-        Heat: 0.85
-        Cold: 0.85
-        Caustic: 0.85
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.8
+        Cold: 0.8
+        Caustic: 0.8
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
@@ -547,11 +546,11 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.65
-        Slash: 0.65
-        Heat: 0.75
-        Cold: 0.75
-        Caustic: 0.75
+        Blunt: 0.75
+        Slash: 0.75
+        Heat: 0.7
+        Cold: 0.7
+        Caustic: 0.7
         Radiation: 0.8
   - type: ClothingSpeedModifier
     walkModifier: 0.97
@@ -595,8 +594,8 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.45
-        Slash: 0.45
+        Blunt: 0.7
+        Slash: 0.7
         Heat: 0.6
         Cold: 0.6
         Caustic: 0.6
