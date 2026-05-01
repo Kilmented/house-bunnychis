@@ -190,7 +190,7 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 100
+    maxIntensity: 1000
     intensitySlope: 40
     totalIntensity: 500
     maxTileBreak: 3
@@ -199,7 +199,7 @@
     color: orange
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 15 #2500
+    lifetime: 12
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/mortarcasing.rsi
     layers:
@@ -259,9 +259,9 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 1000
+        Structural: 2000
   - type: TimedDespawn
-    lifetime: 20 #5000m
+    lifetime: 10
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/1000_armorpiercing_rail_casing.rsi
     layers:
@@ -269,9 +269,9 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 800
-    intensitySlope: 200
-    totalIntensity: 9000
+    maxIntensity: 900
+    intensitySlope: 100
+    totalIntensity: 90000
     maxTileBreak: 15
   - type: PointLight
     radius: 3.5

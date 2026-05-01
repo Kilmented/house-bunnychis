@@ -8,12 +8,12 @@
   price: 90000
   category: Small
   group: None
-  path: /Maps/_Crescent/Shuttles/NCWL/bogatyr.yml
+  path: /Maps/_Crescent/Shuttles/NCWL/Destroyers/bogatyr.yml
 
 - type: gameMap
   id: Bogatyr
   mapName: 'NCWL Bogatyr'
-  mapPath: /Maps/_Crescent/Shuttles/NCWL/bogatyr.yml
+  mapPath: /Maps/_Crescent/Shuttles/NCWL/Destroyers/bogatyr.yml
   minPlayers: 0
   stations:
     Bogatyr:
@@ -22,7 +22,7 @@
         - type: VesselIcon
           iffIcon:
             sprite: _Crescent/ShipIcons/ifficons.rsi
-            state: corvette
+            state: destroyer
         - type: StationNameSetup
           mapNameTemplate: 'NCWL Bogatyr {1}'
           nameGenerator:

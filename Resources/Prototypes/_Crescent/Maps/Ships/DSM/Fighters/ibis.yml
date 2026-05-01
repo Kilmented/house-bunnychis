@@ -3,17 +3,17 @@
   name: DSM Ibis
   description: |
     A heavy fighter equipped with an errant shield emitter, designed for ranging and harassment missions.
-    LOADOUT: 2x 150cc 'Starburst' hybrid plasma gatlings
+    LOADOUT: 2x 20mm Rotary Cannons
     MINIMUM CREW: 1x Pilot
-  price: 38000
+  price: 25000
   category: Small
   group: None
-  path: /Maps/_Crescent/Shuttles/DSM/ibis.yml
+  path: /Maps/_Crescent/Shuttles/DSM/Fighters/ibis.yml
 
 - type: gameMap
   id: Ibis
   mapName: 'DSM Ibis'
-  mapPath: /Maps/_Crescent/Shuttles/DSM/ibis.yml
+  mapPath: /Maps/_Crescent/Shuttles/DSM/Fighters/ibis.yml
   minPlayers: 0
   stations:
     Ibis:

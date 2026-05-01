@@ -8,12 +8,12 @@
   price: 30000
   category: Small
   group: None
-  path: /Maps/_Crescent/Shuttles/NCWL/lodka.yml
+  path: /Maps/_Crescent/Shuttles/NCWL/Corvettes/lodka.yml
 
 - type: gameMap
   id: Lodka
   mapName: 'NCWL Lodka'
-  mapPath: /Maps/_Crescent/Shuttles/NCWL/lodka.yml
+  mapPath: /Maps/_Crescent/Shuttles/NCWL/Corvettes/lodka.yml
   minPlayers: 0
   stations:
     Lodka:
@@ -25,3 +25,7 @@
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
         - type: VesselDesignation
+        - type: VesselIcon
+          iffIcon:
+            sprite: _Crescent/ShipIcons/ifficons.rsi
+            state: corvette

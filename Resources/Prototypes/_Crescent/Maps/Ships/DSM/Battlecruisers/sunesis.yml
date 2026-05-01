@@ -2,18 +2,16 @@
   id: Sunesis
   name: DSM Sunesis
   description: |
-    A mobile and armed base of operations for a small team of Imperial Scribes, this Cruiser is equipped with stealth technology and civilian modules for low-risk voyages.
-    LOADOUT: 4x 300w 'Curse' energized ion bolt cannon, 1x 150cc 'Starburst' hybrid plasma gatling
-    MINIMUM CREW: 1x Captain, 1x Gunner, 2x Scribe Researchers
+    Originally deployed as a mobile base of operations for Imperial Scribes, the Sunesis has undergone extensive wartime refits. Its stealth systems and civilian modules have been largely stripped to support a twin 300mm subnuclear battery, transforming it into a fast but fragile battlecruiser. It retains its mobility, but now serves as a high-risk strike platform, capable of crippling larger vessels if it can close the distance.
   price: 170000
   category: Large
   group: None
-  path: /Maps/_Crescent/Shuttles/DSM/sunesis.yml
+  path: /Maps/_Crescent/Shuttles/DSM/Battlecruisers/sunesis.yml
 
 - type: gameMap
   id: Sunesis
   mapName: 'DSM Sunesis'
-  mapPath: /Maps/_Crescent/Shuttles/DSM/sunesis.yml
+  mapPath: /Maps/_Crescent/Shuttles/DSM/Battlecruisers/sunesis.yml
   minPlayers: 0
   stations:
     Sunesis:
@@ -22,7 +20,7 @@
         - type: VesselIcon
           iffIcon:
             sprite: _Crescent/ShipIcons/ifficons.rsi
-            state: large_industrial
+            state: battlecruiser
         - type: StationNameSetup
           mapNameTemplate: 'DSM Sunesis {1}'
           nameGenerator:

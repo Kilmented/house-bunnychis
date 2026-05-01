@@ -1,22 +1,19 @@
-# Author Info
-# Discord: @fleshangel
-
 - type: vessel
-  id: Vanguard
-  name: NCWL Vanguard
-  description: A communard gunship, sees use primarily as an escort vessel.
-  price: 35000
+  id: Redemptor
+  name: DSM Redemptor
+  description: A light fighter designed for escort and harassment duty.
+  price: 17000
   category: Small
   group: None
-  path: /Maps/_Crescent/Shuttles/NCWL/vanguard.yml
+  path: /Maps/_Crescent/Shuttles/DSM/Fighters/redemptor.yml
 
 - type: gameMap
-  id: Vanguard
-  mapName: 'NCWL Vanguard'
-  mapPath: /Maps/_Crescent/Shuttles/NCWL/vanguard.yml
+  id: Redemptor
+  mapName: 'DSM Redemptor'
+  mapPath: /Maps/_Crescent/Shuttles/DSM/Fighters/redemptor.yml
   minPlayers: 0
   stations:
-    Vanguard:
+    Redemptor:
       stationProto: StandardCrescentVessel
       components:
         - type: VesselIcon
@@ -24,9 +21,9 @@
             sprite: _Crescent/ShipIcons/ifficons.rsi
             state: fighter
         - type: StationNameSetup
-          mapNameTemplate: 'NCWL Vanguard {1}'
+          mapNameTemplate: 'DSM Redemptor {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
         - type: VesselDesignation
-          designation: vessel-designation-gunship
+          designation: vessel-designation-fighter

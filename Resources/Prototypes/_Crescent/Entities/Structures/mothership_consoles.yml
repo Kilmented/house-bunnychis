@@ -6,9 +6,10 @@
   - type: ShipyardListing
     shuttles:
     - Vanguard
+    - Krechet
     - Lodka
-    - Hind
-    - Vasinya
+    # - Hind
+    # - Vasinya
     - Psoglav
 
 - type: entity
@@ -59,9 +60,9 @@
     - Ibis
     - Impel
     - Covetor
-    - Gnosis
-    - Praxis
-    - Praetorian
+    # - Gnosis
+    # - Praxis
+    # - Praetorian
 
 - type: entity
   id: NemesisMothershipComputer

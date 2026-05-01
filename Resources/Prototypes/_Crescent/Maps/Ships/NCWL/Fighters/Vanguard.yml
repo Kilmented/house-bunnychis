@@ -2,21 +2,21 @@
 # Discord: @fleshangel
 
 - type: vessel
-  id: Krechet
-  name: NCWL Krechet
-  description: A light communard fighter.
-  price: 25000
+  id: Vanguard
+  name: NCWL Vanguard
+  description: A communard gunship, sees use primarily as an escort vessel.
+  price: 22000
   category: Small
   group: None
-  path: /Maps/_Crescent/Shuttles/NCWL/krechet.yml
+  path: /Maps/_Crescent/Shuttles/NCWL/Fighters/vanguard.yml
 
 - type: gameMap
-  id: Krechet
-  mapName: 'NCWL Krechet'
-  mapPath: /Maps/_Crescent/Shuttles/NCWL/krechet.yml
+  id: Vanguard
+  mapName: 'NCWL Vanguard'
+  mapPath: /Maps/_Crescent/Shuttles/NCWL/Fighters/vanguard.yml
   minPlayers: 0
   stations:
-    Krechet:
+    Vanguard:
       stationProto: StandardCrescentVessel
       components:
         - type: VesselIcon
@@ -24,8 +24,9 @@
             sprite: _Crescent/ShipIcons/ifficons.rsi
             state: fighter
         - type: StationNameSetup
-          mapNameTemplate: 'NCWL Krechet {1}'
+          mapNameTemplate: 'NCWL Vanguard {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
         - type: VesselDesignation
+          designation: vessel-designation-gunship

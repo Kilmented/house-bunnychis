@@ -8,12 +8,12 @@
   price: 50000
   category: Small
   group: None
-  path: /Maps/_Crescent/Shuttles/NCWL/straznik.yml
+  path: /Maps/_Crescent/Shuttles/NCWL/Frigates/straznik.yml
 
 - type: gameMap
   id: Straznik
   mapName: 'NCWL Straznik'
-  mapPath: /Maps/_Crescent/Shuttles/NCWL/straznik.yml
+  mapPath: /Maps/_Crescent/Shuttles/NCWL/Frigates/straznik.yml
   minPlayers: 0
   stations:
     Straznik:
