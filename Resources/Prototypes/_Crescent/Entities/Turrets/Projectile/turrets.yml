@@ -30,8 +30,8 @@
           ents: []
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 180
-      fireRate: 20
+      projectileSpeed: 300
+      fireRate: 10
       selectedMode: FullAuto
       availableModes:
         - FullAuto
@@ -98,7 +98,7 @@
     - type: Gun
       fireOnDropChance: 0
       fireRate: 10
-      projectileSpeed: 110
+      projectileSpeed: 280
       selectedMode: FullAuto
       availableModes:
         - FullAuto
@@ -227,7 +227,7 @@
     - type: Gun
       fireOnDropChance: 0
       fireRate: 18
-      projectileSpeed: 100
+      projectileSpeed: 280
       angleDecay: 0.75
       minAngle: 1.5
       maxAngle: 2.5
@@ -291,7 +291,7 @@
     - type: MagazineAmmoProvider
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 100
+      projectileSpeed: 250
       burstFireRate: 20
       shotsPerBurst: 2
       burstCooldown: 0.20
@@ -426,7 +426,7 @@
                 collection: MetalGlassBreak
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 95
+      projectileSpeed: 220
       fireRate: 4
       selectedMode: FullAuto
       availableModes:
@@ -563,7 +563,7 @@
         ballistic-ammo: !type:Container
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 90
+      projectileSpeed: 200
       fireRate: 0.6
       selectedMode: FullAuto
       availableModes:
@@ -831,8 +831,8 @@
           ents: []
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 80
-      fireRate: 1.5
+      projectileSpeed: 200
+      fireRate: 3
       selectedMode: FullAuto
       availableModes:
         - FullAuto
