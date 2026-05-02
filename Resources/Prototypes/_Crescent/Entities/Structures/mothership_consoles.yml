@@ -133,7 +133,7 @@
   components:
   - type: ShipyardListing
     shuttles:
-    - Velator
+    # - Velator
     - Taipan
     - Wreck
     - Spriggan

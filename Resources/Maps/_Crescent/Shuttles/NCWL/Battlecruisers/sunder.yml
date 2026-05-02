@@ -80,6 +80,7 @@ entities:
     - type: OccluderTree
     - type: SpreaderGrid
     - type: Shuttle
+      baseMaxLinearVelocity: 38
     - type: BecomesStation
       id: Sunder
     - type: VesselIcon
