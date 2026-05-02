@@ -134,12 +134,14 @@
       - ClothingOuterHardsuitCybersun
 
 - type: entity
-  parent: [ClothingOuterHardsuitSyndie, ClothingArmorInsertHardsuit]
+  parent: [ClothingOuterHardsuitBaseMedium, BaseIntegratedMagboot, ClothingArmorInsertHardsuit]
   id: ClothingOuterHardsuitCyberdawnTactical
   name: ZHONGYAO mk.IV tacsuit
   description: A tactical stealth combat hardsuit produced by the Cyberdawn-Technologies Corporation, the suit's tags indicate it provides moderate protection against most forms of damage.
     Half of the suit is painted blood red, the rest bears sterile titanium plating. It feels incredibly light.
   components:
+  - type: Item
+    size: Huge
   - type: ExplosionResistance
     damageCoefficient: 0.3
   - type: DegradeableArmor
@@ -168,6 +170,10 @@
       - state: equipped-OUTERCLOTHING
       - state: equipped-OUTERCLOTHING-glow
         shader: unshaded
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCyberdawnTactical
   - type: Tag

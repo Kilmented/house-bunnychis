@@ -843,7 +843,7 @@
       slots:
         gun_magazine:
           name: Magazine
-          #startingItem: MagazineFlak - on being rebuilt from destruction this gives it free ammo
+          startingItem: MagazineCorpus  #on being rebuilt from destruction this gives it free ammo, but tf CARES
           insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
           ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
           priority: 2
@@ -852,7 +852,7 @@
               - CorpusBox
         gun_chamber:
           name: Chamber
-          startingItem: FlakCartridge
+          startingItem: CorpusCartridge
           priority: 1
           whitelist:
             tags:
