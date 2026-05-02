@@ -13,7 +13,7 @@
 - type: gameMap
   id: Ivarod
   mapName: 'NCWL Ivarod'
-  mapPath: /Maps/_Crescent/Shuttles/NCWL/ivarod.yml
+  mapPath: /Maps/_Crescent/Shuttles/NCWL/Cruisers/ivarod.yml
   minPlayers: 0
   stations:
     Ivarod:
