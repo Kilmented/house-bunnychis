@@ -335,7 +335,7 @@
 - type: entity
   id: MagazineResolute
   name: 90mm APHE clip
-  description: Three 5 round clips bundled together for with the mighty Resolute autocannon. Contains Armor-Piercing High Explosive shells that are effective against most targets.
+  description: Three 15 round clips bundled together for with the mighty Resolute autocannon. Contains Armor-Piercing High Explosive shells that are effective against most targets.
   parent: BaseItem
   components:
   - type: MultiHandedItem
